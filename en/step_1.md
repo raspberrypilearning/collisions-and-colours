@@ -8,7 +8,7 @@ In this project you are going to explore two key components; `Rigidbodies` and `
 
 In this Discover project you are going to play with some Unity projects that make use of these two components. These examples will show you what you can do with the components. 
 
-If you enjoy this then you can jump straight into our [More Unity pathway]() where you will put these components to use to create your own experience. 
+If you enjoy this then you can jump straight into our [More Unity pathway](https://projects.raspberrypi.org/en/pathways/more-unity){:target="_blank"} where you will put these components to use to create your own experience. 
 
 ### Physics and Rigidbodies
 
@@ -48,12 +48,12 @@ When you add a `Rigidbody` to a GameObject you can use the **Inspector** to chan
 
 ![A screenshot of the Rigidbody component added to a GameObject](images/rigidbody-component.png)
 
-+ Mass - like in the real world this will change how much force is needed to push an object and the amount of friction will affect the objects speed
-+ Drag/Angular drag - this works like air resistance, how quickly an object will reduce it's speed or rotation
-+ Use Gravity - this will set whether the Rigidbody is pulled down by the in game force of gravity.
-+ Is Kinematic - if an object is kinematic it means that all forces applied to it are controlled through code and will not be affected by other objects in the Scene
-+ Interpolate - helps smooth the movement of an object
-+ Collision detection - changes the precision and number of checks performed to see if the object is colliding with any other objects
++ **Mass:** Like in the real world this will change how much force is needed to push an object and the amount of friction will affect the objects speed
++ **Drag/Angular drag:** This works like air resistance, how quickly an object will reduce it's speed or rotation
++ **Use Gravity:** This will set whether the Rigidbody is pulled down by the in game force of gravity.
++ **Is Kinematic:** If an object is kinematic it means that all forces applied to it are controlled through code and will not be affected by other objects in the Scene
++ **Interpolate:** Helps smooth the movement of an object
++ **Collision Detection:** Changes the precision and number of checks performed to see if the object is colliding with any other objects
 
 --- /collapse ---
 
