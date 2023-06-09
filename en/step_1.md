@@ -2,7 +2,7 @@
 
 **Unity** is a game engine that you can use to create video games and 3D experiences. If you have been through the [Intro to Unity pathway]() you might be wondering what else there is to explore. 
 
-In this project you are going to explore two key components; `Rigidbodies` and `Materials` and how you can use them to bring your Unity projects. 
+In this project you are going to explore two key components; `Rigidbodies` and `Materials` and how you can use them to bring your Unity projects to life. 
 
 ### What you will do
 
@@ -14,14 +14,17 @@ If you enjoy this then you can jump straight into our [More Unity pathway](https
 
 One of the benefits of a 3D game engine is that the software can simulate **Physics**. 
 
-One of the components you can use to do this is a `Rigidbody` - which Unity uses to apply forces to an object such as gravity and friction. 
+One of the components you can use to do this is a `Rigidbody`, which Unity uses to apply forces to an object such as gravity and friction. 
 
 You can combine a `Rigidbody` with `Physic Materials` to change the ways forces act on the objects in your projects. 
 
 --- no-print ---
+
+### Try it out 
+
 Use the <kbd>WASD</kbd> keys to roll the marble and you can hold the left mouse button to rotate the camera. 
 
-Roll the marble down the ramps and bounce it off of the capsules at the bottom. 
+Roll the marble down the ramps and bounce it off the capsules at the bottom. 
 
 To get back to the top you can click the "Reset" button at the top.
 
@@ -35,7 +38,9 @@ The marble is using a Rigidbody. The ramps and capsules have different Physic Ma
 --- /no-print ---
 
 --- print-only ---
-![Screenshot from the Physics demo above, a marble is suspended above a platform with 3 ramps leading to a lower platform. The lower platform contains four capsules.](images/physics-demo-preview.png)
+
+![Screenshot from the Physics demo. A marble sits on an upper platform with three ramps leading to a lower platform. The lower platform contains four capsules.](images/physics-demo-preview.png)
+
 --- /print-only ---
 
 --- collapse ---
@@ -48,9 +53,9 @@ When you add a `Rigidbody` to a GameObject you can use the **Inspector** to chan
 
 ![A screenshot of the Rigidbody component added to a GameObject](images/rigidbody-component.png)
 
-+ **Mass:** Like in the real world this will change how much force is needed to push an object and the amount of friction will affect the objects speed
-+ **Drag/Angular drag:** This works like air resistance, how quickly an object will reduce it's speed or rotation
-+ **Use Gravity:** This will set whether the Rigidbody is pulled down by the in game force of gravity.
++ **Mass:** Like in the real world this will change how much force is needed to push an object and the amount of friction will affect the object's speed
++ **Drag/Angular drag:** This works like air resistance, how quickly an object will reduce its speed or rotation
++ **Use Gravity:** This will set whether the Rigidbody is pulled down by the in-game force of gravity
 + **Is Kinematic:** If an object is kinematic it means that all forces applied to it are controlled through code and will not be affected by other objects in the Scene
 + **Interpolate:** Helps smooth the movement of an object
 + **Collision Detection:** Changes the precision and number of checks performed to see if the object is colliding with any other objects
@@ -65,22 +70,25 @@ title: Physic Materials
 
 You apply a `Physic Material` to a collider to change the way it affects other objects it collides with. 
 
-![A screenshot of the attributes of a Physic Material in Unity called "Bounce"](images/physic-material.png)
+![A screenshot of the attributes of a Physic Material called "Bounce"](images/physic-material.png)
 
-Physics Materials have three attributes that you can set to any value between `0` and `1` to change an objects interactions: 
+Physic materials have three attributes that you can set to any value between `0` and `1` to change an object's interactions: 
 **Dynamic Friction:** How quickly an object that is already moving will slow down. `0` is like ice (not very much friction) and `1` would stop a moving object very quickly. 
-**Static Friction:** The amount of force needed to move an object from standing still. `0` means any amount of force is needed and `1` would require a huge amount of force to move an object. 
+**Static Friction:** The amount of force needed to move an object from standing still. `0` means a small amount of force is needed and `1` would require a huge amount of force to move an object. 
 **Bounciness:** How bouncy an object is. `0` is no bounce at all and `1` means an object will bounce and not lose any velocity.
 
 --- /collapse ---
 
 ### Materials and colours
 
-Changing the way an object looks is an important part of designing any game or interactive experience. If a game looks interesting or engaging players will be immersed in the experience more fully.
+Changing the way an object looks is an important part of designing any game or interactive experience. If a game looks interesting or engaging, players will be immersed in the experience more fully.
 
 The main way you change the way objects look in Unity is by using a `Material` to add colour and the appearance of texture. 
 
 --- no-print ---
+
+### Try it out 
+
 Use the <kbd>WASD</kbd> keys to roll the marble and you can hold the left mouse button to rotate the camera. 
 
 The capsules will change the colour of the marble, you can then colour in the tiled floor using those colours.
@@ -124,7 +132,7 @@ Here is an example from the first project in the More Unity path, [Rainbow Run](
 
 --- no-print ---
 
-Control the camera by clicking the left mouse button and moving the mouse. Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. 
+Control the camera by clicking the left mouse button and moving the mouse. Control the movement of the ball using <kbd>WASD</kbd> keys. 
 
 + Which objects do you think use a `Rigidbody` in this game?
 + How have materials been used to make the game more engaging?
@@ -139,6 +147,6 @@ Control the camera by clicking the left mouse button and moving the mouse. Contr
 
 ### What next?
 
-If you want to learn more about Rigidbodies, Physics Materials and Materials you should start the [More Unity pathway](https://projects.raspberrypi.org/en/pathways/more-unity){:target="_blank"}.
+If you want to learn more about Rigidbodies, Physic Materials and Materials you should start the [More Unity pathway](https://projects.raspberrypi.org/en/pathways/more-unity){:target="_blank"}.
 
-There are 6 projects for you to complete which will help you gain the skills you need to create engaging 3D experiences!
+There are 6 projects for you to complete that will help you gain the skills you need to create engaging 3D experiences!
