@@ -3,7 +3,7 @@ hero_image: images/banner.png
 description: Use Rigidbodies and materials to control the ways Unity GameObjects interact and look
 version: 1
 listed: false
-copyedit: false
-last_tested: "2023-06-01"
+copyedit: true
+last_tested: "2023-06-16"
 steps:
   - title: Colours and Collisions
