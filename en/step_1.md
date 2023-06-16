@@ -1,4 +1,4 @@
-## Colours and Collisions
+## Collisions and Colours
 
 **Unity** is a game engine that you can use to create video games and 3D experiences. If you have been through the [Intro to Unity pathway]() you might be wondering what else there is to explore. 
 
