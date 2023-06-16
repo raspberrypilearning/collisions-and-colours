@@ -104,7 +104,7 @@ Play the game and try to colour in every part of the tiled floor.
 --- /no-print ---
 
 --- print-only ---
-![Screenshot from the Material demo above. A platform with 7 capsules is seen from above. A tiled floor has been partially coloured in with pink, green and brown.](images/material-demo-preview.png)
+![A platform with 7 different colour capsules is seen from above. A tiled floor has been partially coloured in with pink, green and brown.](images/material-demo-preview.png)
 --- /print-only ---
 
 --- collapse ---
